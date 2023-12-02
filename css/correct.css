@@ -1,0 +1,44 @@
+.ruby_swiper {
+  margin-top: 50px;
+}
+
+.swipe_ruby1 {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+}
+.ruby_img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.ruby_det {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.ruby_det1 {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+.anger {
+  text-decoration: none;
+}
+.ruby_swiper {
+  /* display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px; */
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
