@@ -2003,6 +2003,7 @@ h1, h2, h3, h4, h5, h6 {
 .header.-type-1 .header__logo {
   display: flex;
   align-items: center;
+  justify-content: space-inbetween;
 }
 
 .header.-type-1 .header__right {
